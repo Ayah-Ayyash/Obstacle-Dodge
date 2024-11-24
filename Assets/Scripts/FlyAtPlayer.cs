@@ -14,5 +14,7 @@ public class FlyAtPlayer : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position,playerPosition ,Time.deltaTime*speed);
+
+         //playerPosition ,Time.deltaTime*speed);
     }
 }
